@@ -1,0 +1,29 @@
+body {
+    background: #f0dcdd;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#animaciones img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.opacity {
+    position: relative;
+}
+
+.opacity img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.opacity img.top:hover {
+    opacity: 0;
+}
